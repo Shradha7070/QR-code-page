@@ -5,40 +5,39 @@ body {
   justify-content: center;
   align-items: center;
   height:100vh;
+  padding:18px
 }
 
 main {
   background-color: hsl(0, 0%, 100%);
-  justify-content: center;
   padding: 16px;
   border-radius: 16px;
 }
 
 img {
-  justify-content: center;
   width: 100%;
   border-radius: 10px;
 }
 
 section {
-  padding: 1px 20px;
+  padding: 1px 12px;
   padding-bottom: 28px;
   text-align: center;
 }
 
 h1 {
   color: hsl(218, 44%, 22%);
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+   font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
 }
 
 p {
   color: rgb(143, 142, 142);
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: large;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
   font-style: normal;
-  size: 15px;
+  font-size: 15px;
 }
 
 @media (min-width: 768px) {
